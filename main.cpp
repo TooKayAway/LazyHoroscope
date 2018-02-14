@@ -31,5 +31,7 @@ int main()
 
   cout << "Welcome, " << firstnameinitial << "." << lastnameinitial << "., here is your fortune..." << endl;
 
+  cout << "Your Lucky Number is " << firstname.length() << endl;
+
   return 0;
 }
