@@ -18,7 +18,7 @@ int main()
 
   cin >> firstname;
 
-  cout << "What is yout last name?" << endl;
+  cout << "What is your last name?" << endl;
 
   cin >> lastname;
 
