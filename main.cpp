@@ -14,11 +14,11 @@ int main()
 
   //get user input
 
-  cout << "Please Enter your First Name" << endl;
+  cout << "What is your first name?" << endl;
 
   cin >> firstname;
 
-  cout << "Please Enter your Last Name" << endl;
+  cout << "What is yout last name?" << endl;
 
   cin >> lastname;
 
@@ -31,7 +31,7 @@ int main()
 
   cout << "Welcome, " << firstnameinitial << "." << lastnameinitial << "., here is your fortune..." << endl;
 
-  cout << "Your Lucky Number is " << firstname.length() << endl;
+  cout << "your lucky number is " << firstname.length() << endl;
 
   if ( firstname[0] == 65 || firstname[0] == 69 || firstname[0] == 73 || firstname[0] == 79 || firstname[0] == 85 || firstname[0] == 97 || firstname[0] == 101 || firstname[0] == 105 || firstname[0] == 111 || firstname[0] == 117 ) {
 
@@ -39,7 +39,7 @@ int main()
 
   } else {
 
-    cout << "You should keep a low profile" << endl; 
+    cout << "you should keep a low profile." << endl; 
 
   }
 
@@ -49,7 +49,7 @@ int main()
 
   }
   
-  cout << "Have a nice day!" << endl;
+  cout << "have a good day!" << endl;
 
   return 0;
 }
